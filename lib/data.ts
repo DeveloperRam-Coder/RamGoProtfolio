@@ -37,33 +37,21 @@ export const experiencesData = [
   {
     title: "Intern",
     location: "Amlino",
-    description: "Worked on frontend development tasks, learning the ropes of web development and contributing to small projects.",
+    description:
+      "As an intern at Amlino, I worked on frontend development tasks, learning and applying modern web development techniques. I contributed to small projects, collaborating with the team to enhance the user interface and improve the overall user experience of web applications. This role provided me with valuable hands-on experience in React and front-end technologies.",
     icon: React.createElement(LuGraduationCap),
-    date: "June 2021 - Aug 2021",
+    date: "Sep 2023 - May 2024",
   },
+
   {
-    title: "Junior Developer",
+    title: "Software Developer",
     location: "Amlino",
-    description: "Assisted in developing and maintaining web applications, fixing bugs, and implementing new features.",
-    icon: React.createElement(CgWorkAlt),
-    date: "Sept 2021 - Dec 2021",
-  },
-  {
-    title: "Senior Developer",
-    location: "Amlino",
-    description: "Led a team of developers, designed and architected scalable web applications, and mentored junior developers.",
+    description:
+      "In my full-time role as a Software Developer, I am responsible for both frontend and backend development. I work on designing and implementing scalable web applications, integrating RESTful APIs, and ensuring optimal performance and responsiveness. With a strong focus on React and Node.js, I contribute to creating seamless user experiences while maintaining robust server-side logic and databases.",
     icon: React.createElement(FaReact),
-    date: "Jan 2022 - Dec 2022",
-  },
-  {
-    title: "Full-Stack Developer",
-    location: "Amlino",
-    description: "Responsible for both frontend and backend development, integrating RESTful APIs, and ensuring the application's performance and responsiveness.",
-    icon: React.createElement(FaReact),
-    date: "Jan 2023 - present",
+    date: "May 2024 - present",
   },
 ] as const;
-
 
 export const projectsData = [
   {
@@ -107,7 +95,7 @@ export const skillsData = [
   // MEAN Developer Skills
   "MongoDB",
   "Angular",
- 
+
   // MERN Developer Skills
   "MongoDB",
   "Express",
