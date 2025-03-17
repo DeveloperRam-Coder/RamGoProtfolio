@@ -2,10 +2,10 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
-
+import crmImg from "@/public/crmImg.png";
+import interviewPrepImg from "@/public/interviewPrepImg.png";
+import interviewHavenImg from "@/public/interviewHavenImg.png";
+import itPositionImg from "@/public/itPositionImg.png";
 export const links = [
   {
     name: "Home",
@@ -55,25 +55,64 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "CRM for Tutor, Barber, Doctor, and Gym",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Bootstrap"],
-    imageUrl: corpcommentImg,
+      "A role-based CRM application allowing tutors, barbers, doctors, and gyms to manage their clients, schedules, and services efficiently.",
+    tags: [
+      "Next.js",
+      "Vite",
+      "TypeScript",
+      "ShadCN UI",
+      "Tailwind",
+      "Framer Motion",
+    ],
+    imageUrl: crmImg,
+    projectUrl: "https://your-crm-project-url.com",
   },
   {
-    title: "rmtDev",
+    title: "InterviewPrep",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "A comprehensive interview scheduling platform with features like time-slot booking, reminders, and integrated candidate management.",
+    tags: [
+      "Next.js",
+      "Vite",
+      "TypeScript",
+      "ShadCN UI",
+      "Tailwind",
+      "Framer Motion",
+    ],
+    imageUrl: interviewPrepImg,
+    projectUrl: "https://interview-pro-vjon.vercel.app",
   },
   {
-    title: "Word Analytics",
+    title: "Interview Haven Landing Page",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "A static website designed to promote an interview scheduling service, featuring a clean UI and engaging animations.",
+    tags: [
+      "Next.js",
+      "Vite",
+      "TypeScript",
+      "ShadCN UI",
+      "Tailwind",
+      "Framer Motion",
+    ],
+    imageUrl: interviewHavenImg,
+    projectUrl: "https://interview-prep-scheduler.vercel.app",
+  },
+  {
+    title: "IT-Position-Guide",
+    description:
+      "A comprehensive dashboard showcasing different IT job roles with detailed insights into required skills, responsibilities, and career growth paths.",
+    tags: [
+      "Next.js",
+      "Vite",
+      "TypeScript",
+      "ShadCN UI",
+      "Tailwind",
+      "Framer Motion",
+    ],
+    imageUrl: itPositionImg,
+    projectUrl: "https://it-position-guide.vercel.app",
   },
 ] as const;
 

@@ -12,6 +12,7 @@ export default function Project({
   description,
   tags,
   imageUrl,
+  projectUrl,
 }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -66,6 +67,18 @@ export default function Project({
         group-even:right-[initial] group-even:-left-40"
         />
       </section>
+
+      {/* Button placed after the section */}
+      <div className="mt-4 flex justify-center">
+        <button
+          onClick={() =>
+            window.open(projectUrl, "_blank", "noopener,noreferrer")
+          }
+          className="bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 transition"
+        >
+          Check Preview
+        </button>
+      </div>
     </motion.div>
   );
 }
