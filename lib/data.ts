@@ -3,9 +3,12 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import crmImg from "@/public/crmImg.png";
-import interviewPrepImg from "@/public/interviewPrepImg.png";
+import interviewProImg from "@/public/interviewProImg.png";
 import interviewHavenImg from "@/public/interviewHavenImg.png";
 import itPositionImg from "@/public/itPositionImg.png";
+import VeggieboyImg from "@/public/VeggieboyImg.png";
+import fitnessguruImg from "@/public/fitnessguruImg.png";
+
 export const links = [
   {
     name: "Home",
@@ -67,10 +70,10 @@ export const projectsData = [
       "Framer Motion",
     ],
     imageUrl: crmImg,
-    projectUrl: "https://your-crm-project-url.com",
+    projectUrl: "https://all-sync-crm.vercel.app",
   },
   {
-    title: "InterviewPrep",
+    title: "InterviewPro",
     description:
       "A comprehensive interview scheduling platform with features like time-slot booking, reminders, and integrated candidate management.",
     tags: [
@@ -81,8 +84,23 @@ export const projectsData = [
       "Tailwind",
       "Framer Motion",
     ],
-    imageUrl: interviewPrepImg,
+    imageUrl: interviewProImg,
     projectUrl: "https://interview-pro-vjon.vercel.app",
+  },
+  {
+    title: "Veggieboy",
+    description:
+      "Veggieboy is a modern vegetarian diet planner designed to help users create and manage personalized meal plans effortlessly. Whether you're a beginner or a seasoned vegetarian, Veggieboy simplifies meal tracking, ensuring a balanced and nutritious diet.",
+    tags: [
+      "Next.js",
+      "Vite",
+      "TypeScript",
+      "ShadCN UI",
+      "Tailwind",
+      "Framer Motion",
+    ],
+    imageUrl: VeggieboyImg,
+    projectUrl: "https://veggieboy.vercel.app",
   },
   {
     title: "Interview Haven Landing Page",
@@ -113,6 +131,21 @@ export const projectsData = [
     ],
     imageUrl: itPositionImg,
     projectUrl: "https://it-position-guide.vercel.app",
+  },
+  {
+    title: "Fitness-guru",
+    description:
+      "Fitness-Guru is a modern gym tracker designed to help users monitor workouts, track progress, and achieve fitness goals efficiently. With an intuitive interface and powerful features, it simplifies gym management and personal training.",
+    tags: [
+      "Next.js",
+      "Vite",
+      "TypeScript",
+      "ShadCN UI",
+      "Tailwind",
+      "Framer Motion",
+    ],
+    imageUrl: fitnessguruImg,
+    projectUrl: "https://fitness-guru-sable.vercel.app/",
   },
 ] as const;
 
