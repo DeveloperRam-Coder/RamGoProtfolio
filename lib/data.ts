@@ -85,7 +85,7 @@ export const projectsData = [
       "Framer Motion",
     ],
     imageUrl: interviewProImg,
-    projectUrl: "https://interview-pro-vjon.vercel.app",
+    projectUrl: "https://imspro.vercel.app",
   },
   {
     title: "Veggieboy",
